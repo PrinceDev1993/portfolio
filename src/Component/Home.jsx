@@ -10,11 +10,18 @@ const Home = () => {
         <div className='max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row '>
             <div className='flex flex-col justify-center h-full '>
                 <h2 className='text-white text-4xl font-bold sm:text-7xl'>I'm a Frontend Developer</h2>
-                <p className='text-gray-500 py-4 max-w-md'>The developer you can trust to deliver on the job at any time.</p>
+                <p className='text-gray-500 py-4 max-w-md'>The developer you can trust to deliver on the job at any time.clear</p>
 
-                <div>
+                <div className='flex justify-between'>
                     <Link to="Portfolio" smooth duration={500} className='group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer'>
                         Portfolio 
+                        <span className='group-hover:rotate-90 duration-300'>
+                            <MdOutlineKeyboardArrowRight size={25} className='ml-1' />
+                        </span>
+                    </Link>
+
+                    <Link to="https://github.com/PrinceDev1993" smooth duration={500} className='group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer'>
+                        GitHub Page 
                         <span className='group-hover:rotate-90 duration-300'>
                             <MdOutlineKeyboardArrowRight size={25} className='ml-1' />
                         </span>
