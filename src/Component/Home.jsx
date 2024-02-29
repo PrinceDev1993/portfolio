@@ -13,42 +13,36 @@ const Home = () => {
                 <p className='text-gray-500 py-4 max-w-md'>The developer you can trust to deliver on the job at any time.clear</p>
 
                 <div className='flex justify-between'>
-                    <Link to="Portfolio" smooth duration={500} className='group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer'>
+                    <Link to="Portfolio" smooth duration={500} className='group text-white w-fit px-6 py-2 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer'>
                         Portfolio 
                         <span className='group-hover:rotate-90 duration-300'>
-                            <MdOutlineKeyboardArrowRight size={25} className='ml-1' />
+                           <MdOutlineKeyboardArrowRight size={25} className='ml-1' /> 
                         </span>
                     </Link>
 
                     <button className=''>
-                        <a href="https://github.com/PrinceDev1993" className='group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer'>
+                        <a href="https://github.com/PrinceDev1993" className='group text-white w-fit px-6 py-2 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer'>
                             GitHub Page 
-                            <span className='group-hover:rotate-90 duration-300'>
+                            {/* <span className='group-hover:rotate-90 duration-300'>
                                 <MdOutlineKeyboardArrowRight size={25} className='ml-1' />
-                            </span>
+                            </span> */}
                         </a>
                     </button>
                 </div>
 
                 <div className='flex justify-between'>
                     <button className='lg:hidden'>
-                        <a href="https://www.linkedin.com/in/princewillonyebuchi/" className='group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer'>
+                        <a href="https://www.linkedin.com/in/princewillonyebuchi/" className='group text-white w-fit px-6 py-2 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer'>
                             LinkedIn 
-                            <span className='group-hover:rotate-90 duration-300'>
+                            {/* <span className='group-hover:rotate-90 duration-300'>
                                 <MdOutlineKeyboardArrowRight size={25} className='ml-1' />
-                            </span>
+                            </span> */}
                         </a>
                     </button>
 
-                    <button className='lg:hidden'>
-                        <a href="./assets/PRINCEWILL CV.docx" download="./assets/PRINCEWILL CV.docx" target='_blank'
-                        rel='noreferrer' className='group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer'>
-                            Download CV 
-                            <span className='group-hover:rotate-90 duration-300'>
-                                <MdOutlineKeyboardArrowRight size={25} className='ml-1' />
-                            </span>
-                        </a>
-                    </button>
+                    <a href="PRINCEWILL.docx" download="PRINCEWILL.docx" className='lg:hidden group text-white w-fit px-6 py-2 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer'>
+                        <button>Download</button>
+                    </a>
                 </div>
             </div>
 
