@@ -20,12 +20,14 @@ const Home = () => {
                         </span>
                     </Link>
 
-                    <Link to="https://github.com/PrinceDev1993" smooth duration={500} className='group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer'>
+                    <button>
+                    <a href="https://github.com/PrinceDev1993" className='group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer'>
                         GitHub Page 
                         <span className='group-hover:rotate-90 duration-300'>
                             <MdOutlineKeyboardArrowRight size={25} className='ml-1' />
                         </span>
-                    </Link>
+                    </a>
+                    </button>
                 </div>
             </div>
 
