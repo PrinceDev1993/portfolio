@@ -41,7 +41,7 @@ const Home = () => {
                     </button>
 
                     <button className='lg:hidden'>
-                        <a href="./assets/PRINCEWILL CV.docx" download target='_blank'
+                        <a href="./assets/PRINCEWILL CV.docx" download="./assets/PRINCEWILL CV.docx" target='_blank'
                         rel='noreferrer' className='group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer'>
                             Download CV 
                             <span className='group-hover:rotate-90 duration-300'>
